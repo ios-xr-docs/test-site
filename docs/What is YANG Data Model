@@ -1,0 +1,7 @@
+YANG (Yet Another Next Generation) is a data modelling language that describes data sent over a network configuration protocol (NETCONF, RESTCONF). The YANG language is used to write YANG data models.
+Models are defined as text files using the YANG modelling language (RFC 7950), and are arranged in a tree structure. These models have a well-defined syntax and semantics that provides the flexibility to develop tools to process the models. They simplify network automation and orchestration, unlike CLIs that offer limited automation.
+Data models provide a well-defined hierarchy of the following data on the router:
+• configurational data
+• operational data
+• NETCONF actions
+The data models are programmed to provide a common framework of configurations to be deployed across networks. This common framework helps to program and manage a network with ease.
